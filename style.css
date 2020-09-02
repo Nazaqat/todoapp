@@ -1,0 +1,44 @@
+h1 {
+	text-align: center;
+}
+input[type='submit'],
+button,
+[aria-label] {
+	cursor: pointer;
+	width: 10%;
+}
+
+input {
+	width: 80%;
+}
+
+#spoiler {
+	display: none;
+}
+
+form {
+	margin-left: 25%;
+	margin-top: 2%;
+	width: 50%;
+	height: 200%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: none;
+	background-color: #dcdcdc;
+	color: white;
+}
+
+#counter {
+	text-align: center;
+}
+
+table {
+	margin-left: 43%;
+}
+
+button {
+	width: 120%;
+	background-color: white;
+	color: black;
+	border: 1px solid #f44336;
+}

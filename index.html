@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Countries</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Todo list !</h1>
+    <form action="javascript:void(0);" method="get" onClick="app.Add()">
+      <input type="text" id="add-name" placeholder="Add new country..." />
+      <input type="submit" value="Add" />
+    </form>
+
+    <!-- Hiden div/form -->
+    <div id="spoiler" role="aria-hidden">
+      <form action="javascript:void(0);" method="get" id="saveEdit">
+        <input type="text" id="edit-name" />
+        <input type="submit" value="Update" />
+        <a onclick="CloseInput()" aria-label="Close">&#10060;</a>
+      </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+      <tr>
+        <th>Name(s)</th>
+      </tr>
+      <tbody id="countries"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
